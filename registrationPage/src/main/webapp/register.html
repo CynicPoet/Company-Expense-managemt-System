@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="h-screen w-screen flex justify-center items-center">
+      <div
+        class="md:h-full mt-30 w-full md:mt-0 mt-20 md:flex md:justify-center md:items-center h-screen"
+      >
+        <div class=" md:items-center md:h-full flex justify-right items-end">
+          <div class="flex justify-center items-center md:h-full md:w-full">
+            <div class="w-full flex justify-end items-center">	
+              <img
+              class=""
+              src="https://www.cflowapps.com/wp-content/uploads/2023/08/Automated-Expense-Report-02.png"
+              alt=""
+              />
+            </div>
+          </div>
+      <div
+      
+        class="h-full flex md:justify-start justify-center md:items-center w-full md:w-8/12"
+      >
+        <div class="p-8 rounded-lg w-96">
+          <h2 class="text-3xl font-bold mb-6">Register</h2>
+          <form action="RegisterServelet" method="POST"  id="loginForm">
+            <div class="mb-6">
+              <label
+                for="username"
+                class="block text-gray-700 font-semibold mb-1"
+                >Username</label
+              >
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="w-full px-4 py-2 bg-gray-100 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="emailid"
+                class="block text-gray-700 font-semibold mb-1"
+                >Email Id</label
+              >
+              <input
+                type="email"
+                id="emailid"
+                name="emailid"
+                class="w-full px-4 py-2 bg-gray-100 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="position"
+                class="block text-gray-700 font-semibold mb-1"
+                >Position</label
+              >
+              <select
+                id="position"
+                name="position"
+                class="w-full px-4 py-2 bg-gray-100 border border-gray-300 rounded-md focus:outline-none"
+              >
+                <option value="">Select a Role</option>
+                <option value="Manager">Manager</option>
+                <option value="Supervisor">Supervisor</option>
+                <option value="Employee">Employee</option>
+              </select>
+            </div>
+            <div class="mb-6">
+              <label
+                for="password"
+                class="block text-gray-700 font-semibold mb-1"
+                >Create Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="w-full px-4 py-2 bg-gray-100 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600 transition duration-300"
+            >
+              Register
+            </button>
+          </form>
+          <div class="mt-4 text-center text-slate-500">
+          <h1 class="text-zinc-100 font-normal">Already have an Account?
+          <span>
+          <a
+              href="http://localhost:7750/registrationPage/login.html"
+              class="text-slate-200 hover:text-slate-500 font-bold transition duration-300"
+              >Login</a
+            >
+          </span>
+          </h1>
+          </div>		
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
