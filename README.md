@@ -1,11 +1,10 @@
-# Company-Expense-managemt-System
+### Company-Expense-managemt-System
 
-### We have Built In Different Interfaces on Tomcat Server with JDBC + SQL Server
+#### We have Built In Different Interfaces on Tomcat Server with JDBC + SQL Server
 
----
 
-> Shivam Pokharker
+Team Memebers
+ -Shivam Pokharker
+ -Varun Balbudhe
+ -Vemula Ramani
 
->Varun Balbudhe
-
->Vemula Ramani
