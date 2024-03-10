@@ -1,12 +1,11 @@
-### Company-Expense-managemt-System
+# Company Expense Management System
 
-#### We have Built In Different Interfaces on Tomcat Server with JDBC + SQL Server
+## Introduction
 
+We have developed a comprehensive Expense Management System, featuring various interfaces hosted on Tomcat Server. Our system leverages JDBC to interact with a SQL Server database, providing efficient and secure management of corporate expenses.
 
-Team Memebers
--Shivam Pokharker
- 
--Varun Balbudhe
- 
--Vemula Ramani
+## Team Members
 
+- **Shivam Pokharker**
+- **Varun Balbudhe**
+- **Vemula Ramani**
